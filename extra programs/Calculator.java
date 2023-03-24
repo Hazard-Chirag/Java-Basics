@@ -21,6 +21,8 @@ class Calculator implements ActionListener
 		frame.setVisible(true);
 		frame.setLayout(null);
 		frame.setBackground(Color.black);
+		frame.setResizable(true); //window resizing
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		t=new JTextField();
 		t.setBounds(30,10,165,35);
 		b0=new JButton("0");
