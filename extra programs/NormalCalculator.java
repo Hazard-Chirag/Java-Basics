@@ -20,7 +20,10 @@ case '+':result = num1 + num2;
 
 case '*':result = num1 * num2;
  break;
-case '/':result = num1 / num2;
+case '/': if(num2==0)
+          return;
+          else
+          result = num1 / num2;
  break;
 case '%':result = num1 % num2;
  break;
