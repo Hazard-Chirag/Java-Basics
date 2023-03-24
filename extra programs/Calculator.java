@@ -1,4 +1,6 @@
-package lolol;
+/*Program to implement a calculator using GUI */
+
+package com.gui.calci
 
 import java.awt.*;
 import java.awt.event.*;
@@ -169,4 +171,13 @@ class Calculator implements ActionListener
 	}
 	
 	
+}
+public class Main {
+
+	public static void main(String[] args) {
+		Calculator ob=new Calculator();
+		ob.display();
+
+	}
+
 }
